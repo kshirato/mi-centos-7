@@ -11,13 +11,13 @@ IFS=$'\n\t'
 CUR_TIME=$(date +%FT%TZ)
 CUSTOM_RPMS=./RPMS
 DVD_LAYOUT=/data/centos-7-iso-layout
-DVD_TITLE='CentOS-7-Joyent'
+DVD_TITLE='CentOS-7-kspf'
 ISO=CentOS-7-x86_64-Minimal-1708.iso
 ISO_DIR=/data/fetched-iso
 ISO_FILENAME=./centos-7-1708-kspf.iso
 KS_CFG=./ks.cfg
 GUESTTOOLS=sdc-vmtools
-MIRROR=https://buildlogs.centos.org/rolling/7/isos/x86_64
+MIRROR=http://ftp.jaist.ac.jp/pub/Linux/CentOS/7.4.1708/isos/x86_64
 MOUNT_POINT=/mnt/centos7
 
 fetch_iso() {
